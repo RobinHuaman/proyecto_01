@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Inscripcion</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/inscripcion.css">
+
+</head>
+
+<body>
+
+    <article class="conteiner mx-auto">
+        <form action="/php/incripcion.php" method="post" class=" form">
+        <section class="home">
+                <section class="col-xs-8 col-sm-8 col-md-12">
+                    <h2 class="titulo">Inscríbete aquí</h2>
+                    <input class="margin" type="text" id="nombre" name="nombre" placeholder="Nombres" required>
+                    <input class="margin" type="text" id="apellido" name="apellido"placeholder="Apellidos" required>
+                    <input class="margin" type="email" id="email" name="email" placeholder="Coreo electrónico" required>
+                    <input class="margin" type="cel" id="celular" name="celular" placeholder="Telefono / celular" required>
+                    
+                    <select class="margin-list" id="lista1" name="lista1" required>
+                        <option disabled selected="">Carrera Univercitaria </option>
+                        <option value="Diseño y desarrollo de software">Diseño y desarrollo de software</option>
+                        <option value="Administracion">Administracion</option>
+                        <option value="Arquitectura">Arquitectura</option>
+                        <option value="Contabilidad">Contabilidad</option>
+                    </select>   
+                    <select class="margin-list" id="lista2" name="lista2" required>
+                        <option disabled selected="">Modalidad </option>
+                        <option value="Mañana">Mañana </option>
+                        <option value="Noche">Noche</option>
+                    </select>    
+                    <select class="margin-list" id="lista3" name="lista3" required>
+                        <option disabled selected="">Ingieneria de Sistemas </option>
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                    <select class="margin-list" id="lista4" name="lista4" required>
+                        <option disabled selected="">Sede</option>
+                        <option value="Norte">Norte </option>
+                        <option value="Surco">Surco</option>
+                        <option value="Ate">Ate</option>
+                        <option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
+                    </select>    
+                    
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Acepto haber leido las <u> politicas de privacidad.</u>
+                        </label>
+                    </div>
+                    <br>
+                    <input type="submit" class="boton_R" value="Solicitar">
+                </section>
+
+        </section>
+        </form>
+    </article>
+
+</body>
+
+</html>

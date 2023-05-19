@@ -1,0 +1,97 @@
+:root{
+    --color-primario: #EC111A;
+    --color-secundario: blue;
+    --sombras: #282d31;
+    --titulos: #282828;
+    --textos: #53575A;
+    --fondo: #FCFCFC;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(60, 217, 223) ;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--fondo);
+}
+.imagen{
+    border-radius: 15px;
+}
+.titulo-2{
+    color: var(--color-primario);
+    line-height: 40px;
+    font-weight: bold;
+    size: 2.2em;
+}
+.parrafo{
+    text-align: justify;
+}
+
+.boton1{
+    background-color: #EC111A;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff ;
+    margin: 5px;
+    font-weight: bold;
+
+}
+.boton2{
+    background-color: #EC111A;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff ;
+    margin: 5px;
+    font-weight: bold;
+
+}
+
+.titulo-2-1{
+    color: var(--color-primario);
+    line-height: 45px;
+    font-weight: bold;
+    size: 2.2em;
+}
+
+.boton{
+    background-color: var(--color-primario);
+    color: white;
+    size: 2.5em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.boton_R{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    size: 2.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-check-input{
+    background-color: gray;
+}
+.margin{
+    border: 1px solid rgb(25, 160, 223);
+    box-shadow: 1px 1px 4px #36cece;
+}
+
+
+
+input, textarea{
+    width: 100%;
+    border: 1px solid var(--color-primario);
+    padding: .5em;
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+textarea {
+    min-height: 250px;
+    max-height: 250px;
+}
+

@@ -1,0 +1,84 @@
+:root{
+    --color-primario: #EC111A;
+    --color-secundario: blue;
+    --sombras: #282d31;
+    --titulos: #282828;
+    --textos: #53575A;
+    --fondo: #FCFCFC;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 10px;   
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    background-image: radial-gradient();
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    display: flex;
+    min-height: 100vh;
+}
+.form{
+    background-color: rgb(222, 226, 228) ;
+    margin: auto;
+    width: 100%;
+    max-width: 380px;
+    padding: 1.5em 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 /30px) ;
+
+} 
+form{
+    max-width: 1000px;
+    background-color: #000000; 
+    margin: auto;
+    border-radius: 10px;
+    padding: 1.2em;
+}
+.boton_R{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    size: 2.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 100px;
+    width: 40%;
+}
+
+.form-check-input{
+    background-color: gray;
+    margin-top: 10px;
+}
+.form-check-label{
+    font-size: 15px;
+}
+.margin{
+    border: 1px solid rgb(255, 255, 255);
+}
+.margin-list{
+    
+    border: 1px solid rgb(255, 255, 255);
+    padding: .5em;
+    width: 100%;
+    margin-bottom: 0.3em;
+    color: #53575A;
+}
+
+input{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 0.3em;
+}
+
+.titulo{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 100px;
+}
