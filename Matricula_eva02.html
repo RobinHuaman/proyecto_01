@@ -18,7 +18,7 @@
 
 <body>
     <article class="container">
-        <form action="" class="form1">
+        <form action="/php/matricula.php" method="post" class="form1">
             <section class="row"><!--de aqui se puede mover el formulario-->
                 <section class="col-xs-12 col-sm-12 col-md-8"><br>
                     <section>
@@ -59,16 +59,18 @@
                             required>
                         <input class="margin" type="email" id="email" name="email" placeholder="Correo" required>
                         <input class="margin" type="cel" id="cel" name="cel" placeholder="Celular" required>
-                        <select class="margin-list" id="lista3" name="lista3" required>
+                        <select class="margin-list" id="lista1" name="lista1" required>
                             <option disabled selected="">- Sede de interés - </option>
-                            <option value="Si">Surco</option>
-                            <option value="No">San Juan de Lurigancho</option>
-                            <option value="No">Ate</option>
-                            <option value="No">Santa clara</option>
+                            <option value="Surco">Surco</option>
+                            <option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
+                            <option value="Ate">Ate</option>
+                            <option value="Santa clara">Santa clara</option>
                         </select>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox" name="checkbox">
                         <label class="form-check-label" for="flexCheckDefault">
+                            <option value="">
                             Acepto el uso de mis datos
+                        </option>
                         </label>
                         <button class="btn1">Enviar</button>
                     </section>
