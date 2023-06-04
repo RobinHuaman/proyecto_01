@@ -1,0 +1,73 @@
+.card-grid{
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    
+}
+.card-grid1{
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    padding-top: 1.5em;
+    
+}
+.container{
+    padding: 8px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: .5em;
+    box-shadow: 0 1px 10px rgba(159,159,159,.49); 
+}
+.card-img img{
+    border-radius: .5em .5em 0 0;
+}
+
+.card-content{
+    padding: 1em;
+}
+.titulo-principal{
+    text-align: center;
+    padding: 20px;
+}
+
+.card-titulo{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration:underline;
+   
+}
+.card-titulo1{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration:underline;
+    margin-bottom: 10px;
+     font-family: 'Roboto', sans-serif;
+}
+.card-titulo2{
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration:underline;
+    margin-bottom: 10px;
+     font-family: 'Roboto', sans-serif;
+}
+
+.conteiner{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: .4em;
+    border: 2px solid rgb(209, 10, 10);
+    color: rgb(177, 12, 12);
+}
+.card-boton {
+    text-decoration: none;
+   color: red;
+ 
+}
