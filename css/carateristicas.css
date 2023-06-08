@@ -1,0 +1,140 @@
+.card-grid{
+    display: grid;
+    gap: .5em;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    
+}
+
+.container{ 
+    padding: 20px 80px 20px 50px;
+/*    border: 2px solid rgb(10, 209, 10);*/
+}
+
+.card{
+    background-color: #fff;
+    border-radius: .2em;
+    box-shadow: 0px 1px 10px rgba(159,159,159,.49); 
+}
+.card-img img{
+    border-radius: .5em .5em 0 0;
+    width: 100%;
+    height: 150px;
+}
+
+.card-content{
+    padding: 1.5em;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 24px;
+    font-weight:bold;
+}
+.titulo-principal1{
+    font-size: 30px;
+    margin-top: -0.8em;
+    text-align: center;
+    padding: 20px;
+    color: red;
+    font-weight:bold;
+}
+
+.card-texto{
+    font-size: 1em;
+    text-align:justify ;
+    padding-bottom: 10px;
+}
+
+.card-subtitulo{
+    font-size: 1.1em;
+    text-align:justify ;
+    padding-bottom: 10px;
+}
+hr{
+    color: rgb(110, 3, 3);
+    padding: 1.5px;
+    margin-top: -10px;
+}
+
+
+
+.card-boton {
+    text-decoration: none;
+   color: red;
+ 
+}
+/* parte 2 */
+
+.container1{
+/*    border: 2px solid rgb(209, 10, 159); */
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: .4em;
+    color: rgb(177, 12, 12);
+}
+.titulo1{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 180px;
+    color: black;
+    font-weight:bold;
+}
+
+.card1{
+    background-color: #000000;
+    border-radius: 1em;
+    box-shadow: 0 1px 10px rgba(159,159,159,.49); 
+}
+/*Cambiar el tamaño del las cartas*/
+.card-grid1{
+    width:85% ;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fill,minmax(240px,90fr));
+    margin: auto;
+}
+
+.card-img1 img{
+    border-radius: 1em 1em 0 0;
+    width: 100%;
+    height: 250px 150px;
+}
+
+.card-boton1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:18px;
+}
+
+.card-content1{
+    padding: 0px;
+}
+
+.container2{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: .4em;
+    padding: 15px;
+}
+
+.container3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.container4{
+    width: 30%;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    margin: auto;
+    border-radius: .5em;
+}
+.card-boton2 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+}
